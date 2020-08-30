@@ -1,9 +1,9 @@
-#include <raylib.h> // Code is retarded -> direct, messy port from Love2D (Lua).
+#include <raylib.h> // Code ported from Lua, no OOP. 
 int main() {
 	const int WindowWidth = 1280;
 	const int WindowHeight = 720;
 	InitWindow(WindowWidth, WindowHeight, "PONG"); // Window init with title "PONG".
-	SetTargetFPS(60); // Vsync, basically.
+	SetTargetFPS(60);
 	// Set all game variables.
 	// Player paddle vars.
 	int plPosX = 10;
